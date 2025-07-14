@@ -1,0 +1,103 @@
+# === Build artifacts ===
+/build/
+/bin/
+/out/
+/target/
+/gradle/
+.gradle/
+/.nb-gradle/
+Thumbs.db
+
+# Exclude generated build folders inside source directories
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/main/**/out/
+!**/src/test/**/out/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IntelliJ specific exclusions
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/aws.xml
+.idea/**/contentModel.xml
+.idea/**/dataSources*
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+.idea/**/mongoSettings.xml
+.idea/**/sonarlint/
+.idea/**/sonarIssues.xml
+.idea/**/markdown-navigator*
+.idea/**/replstate.xml
+.idea/**/httpRequests
+.idea/**/azureSettings.xml
+.idea/caches/
+.idea/modules/
+.idea_modules/
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/codestream.xml
+
+# === Eclipse ===
+.classpath
+.project
+.settings/
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+# === NetBeans ===
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+
+# === VS Code ===
+.vscode/
+
+# === OS-specific ===
+.DS_Store
+
+# === Gradle Wrapper ===
+!gradle/wrapper/gradle-wrapper.jar
+
+# === CMake ===
+cmake-build-*/
+
+# === Crashlytics ===
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+com_crashlytics_export_strings.xml
+
+# === Lombok ===
+lombok.config
+
+# === Serenity BDD ===
+.serenity/
+.serenity-cache/
+OLDtarget/site/serenity/
+
+# === Cucumber Reports ===
+cucumber-report/
+cucumber-html-reports/
+cucumber.json
+
+# === Logs and temp files ===
+*.log
+*.tmp
+*.swp
