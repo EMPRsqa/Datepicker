@@ -3,6 +3,6 @@ Feature: Select a date.
 
   Scenario: Select a specific date in a different month than the current one
     Given the user opens the calendar in the form
-    When they navigate to August 2025 and select the 15th day
+    When the user selects the date "08/15/2025"
     Then the selected date is displayed correctly in the field
 
